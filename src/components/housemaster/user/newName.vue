@@ -49,7 +49,6 @@ export default {
           axios.post('/changeUserName',{token:window.localStorage.getItem('token'),userName:this.$data.ruleForm.userName})
               .then(res=>{
                 console.log(res.data)
-
                 if (res.data.code  === 0){
                   this.$message({
                     type: 'success',

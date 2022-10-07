@@ -38,7 +38,7 @@
             <span>账户信息维护</span>
           </template>
           <el-menu-item-group >
-            <el-menu-item index="2-1" @click = "newName">修改用户名</el-menu-item>
+<!--            <el-menu-item index="2-1" @click = "newName">修改用户名</el-menu-item>-->
             <el-menu-item index="2-2" @click = "changePwd">修改密码</el-menu-item>
             <el-menu-item index="2-3" @click = "cancelAccount">注销</el-menu-item>
           </el-menu-item-group>

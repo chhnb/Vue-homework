@@ -85,7 +85,7 @@ export default {
 .logo{
 
   height: 200px;
-  width:500px;
+  width:562px;
   float: left;
 
 }
