@@ -6,7 +6,7 @@
               :cell-class-name="tableRowClassName">
       <el-table-column prop="userName" label="用户名" align="center" width="140px"> </el-table-column>
       <el-table-column prop="name" label="姓名" align="center" width="80px"> </el-table-column>
-      <el-table-column prop="id" label="身份证号" align="center" width="160px"> </el-table-column>
+      <el-table-column prop="id" label="身份证号" align="center" width="170px"> </el-table-column>
       <el-table-column prop="userType" label="用户类别" align="center" width="140px"></el-table-column>
       <el-table-column prop="result" label="审核结果" align="center">
         <template v-slot="scope2">
