@@ -9,7 +9,7 @@
   </div>
   <br>
   <br>
-  <p class = "message">水费：￥{{msg}}</p>
+  <p class = "message">水git 费：￥{{msg}}</p>
   <br>
   <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
     <el-form-item label="宿舍号" prop="dorNum" class = "dorNum">
