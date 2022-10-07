@@ -24,7 +24,6 @@
 <script>
 import axios from "axios";
 
-axios.defaults.baseURL='/api'
 axios.defaults.headers.common['token'] = window.localStorage.getItem('token');
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';//配置请求头
 export default {

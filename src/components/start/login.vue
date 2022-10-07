@@ -39,7 +39,6 @@
 import register from '@/components/start/register';
 import axios from "axios";
 
-axios.defaults.baseURL='/api'
 
 export default {
   data() {

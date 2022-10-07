@@ -25,7 +25,7 @@
 <script>
 import axios from "axios";
 
-axios.defaults.baseURL='/api'
+
 // 请求拦截器，每次请求都会先执行这里的代码
 axios.defaults.headers.common['token'] = window.localStorage.getItem('token');
 axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8';//配置请求头
